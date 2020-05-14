@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #16161a;
+    font-family: sans-serif;
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content h1 {
+    font-size: 7rem;
+    color: #fffffe;
+    text-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.content button {
+    padding: 1em 5em;
+    font-size: 1.2rem;
+    border: none;
+    color: #fffffe;
+    background: #ff8906;
+    border-radius: 0.1em;
+    margin-top: 2em;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+}
